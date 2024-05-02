@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* main styles */
+body {
+    font-size: 14px;
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+    color: #000;
+}
+
+.mainBgColor {
+    background-color: #f88c21;
+}
+
+.mainTextColor {
+    color: #f88c21;
+}
+
+/*End main styles */
+/*!------------------------------------*/
+/* start Header section  */
+.header .navbar {
+    background-color: #f88818;
+}
+
+.header .navbar .logoImg img {
+    width: 90px;
+}
+
+.header .navbar .navbar-nav li a {
+    font-size: 18px;
+    font-weight: 500;
+    /* margin: 0 20px; */
+}
+
+.flex-xl-grow-0 {
+    flex-grow: .5 !important;
+}
+
+/* End Header section  */
+
+/*!------------------------------------*/
+
+/* start mainSlide section */
+.mainPage .mainSlide {
+    padding-top: 70px;
+}
+
+.mainPage .mainSlide .homeVictore {
+    width: 100%;
+    height: 125%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    object-fit: fill;
+    z-index: 1;
+}
+
+.mainPage .mainSlide .sandwitch {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 70px;
+    top: 55%;
+    transform: translateY(-50%);
+    object-fit: fill;
+}
+
+.mainPage .mainSlide .plate {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    right: 25px;
+    top: 80px;
+}
+
+.mainPage .mainSlide .soup {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+}
+
+.mainPage .mainSlide .mainContaint {
+    padding: 61px;
+}
+
+.mainPage .mainSlide .mainContaint .right {
+    position: relative;
+    padding: 30px 110px 30px 150px;
+}
+
+.mainPage .mainSlide .mainContaint .right h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    /* text-align: right; */
+
+}
+
+.mainPage .mainSlide .mainContaint .right .desc {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.mainPage .mainSlide .mainContaint .left .image {
+    width: 250px;
+}
+
+.mainPage .mainSlide .mainContaint .left .image img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+@media only screen and (max-width: 1025px) {
+    .mainPage .mainSlide .mainContaint .right {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .mainPage .mainSlide .mainContaint .left .image {
+        width: 150px;
+    }
+}
+
+/* End mainSlide section */
+/*!--------------------------------------------*/
+/* start ourSeeing section */
+.mainPage .ourSeeing .right,
+.mainPage .ourSeeing .left {
+    width: 35%;
+    min-height: calc(100vh - 100px);
+}
+
+.mainPage .ourSeeing .about1 {
+    max-width: 95%;
+    height: 100%;
+    right: 0;
+    top: 50%;
+    object-fit: fill;
+}
+
+/* start ourSeeing section */
+/*!----------------------------------*/
+/* start advantages section */
+
+.mainPage .advantages .card-image {
+    height: 105px
+}
+
+@media only screen and (max-width: 994px) {
+
+    .mainPage .advantages .content {
+        margin-top: 20px !important;
+        font-size: 10px !important;
+    }
+
+    .mainPage .advantages .card-image {
+        height: 50px !important;
+    }
+}
+
+/* End advantages section */
+/*!----------------------------------*/
+/* start downloadApp section */
+
+.downloadApp .right .downDesc p {
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0em;
+    max-width: 335px;
+}
+.downloadApp .right .downDesc a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    width: 228px;
+    color: #fff;
+    font-size: 27px;
+    background-color: #f88818;
+    border-radius: 35px;
+    transition: all .3s;
+    border: 1px solid #f88818;
+    box-shadow: none;
+}
+.downloadApp .right .downDesc a:hover {
+    background-color: white;
+    color: #f88818;
+}
+
+/* End downloadApp section */
+/*!----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* same classes */
+.wave-vector {
+    width: 75%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+
+.orange-wave {
+    width: 75%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+
+@media only screen and (max-width: 770px) {
+    .wave-vector {
+        width: 100%;
+
+    }
+
+    .orange-wave {
+        width: 100%;
+    }
+}
