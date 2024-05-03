@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./node_module/aos/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./node_module/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
@@ -11,7 +12,7 @@
 
 <body>
     <!-- Navbar Section -->
-    <section class="header">
+    <header class="header">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" dir="ltr">
             <div class="container px-5 px-md-0">
                 <a class=" navbar-brandd logoImg m-md-auto" href="#mainSlide">
@@ -41,10 +42,8 @@
                 </div>
             </div>
         </nav>
-
-    </section>
+    </header>
     <!--End Navbar Section -->
-
 
     <!-- Start Main Page -->
     <section class="mainPage ">
@@ -90,20 +89,20 @@
         <!--!-------------------------------------->
 
         <!-- start ourSeeing -->
-        <div class="ourSeeing bg-white position-relative" id="ourSeeing" style="height:calc(100vh - 100px) ">
+        <div class="ourSeeing bg-white position-relative" id="ourSeeing" style=" height:calc(100vh - 100px)">
             <img src="./images/orange-wave.png" class="orange-wave" alt="orange-wave">
-            <div class="bg d-none d-md-block">
-                <div class="right position-absolute">
+            <div class="bg d-none d-md-block" >
+                <div class="right position-absolute" data-aos="fade-left">
                     <img src="./images/about1.png" class="about1 " alt="about1">
                 </div>
             </div>
-            <div class="containt h-100" dir="ltr">
+            <div class="containt h-100 position-relative" dir="ltr">
                 <div class="container h-100">
-                    <div class="row h-100">
+                    <div class="row h-100" >
                         <div class="col-md-6 text-end d-flex align-items-center justify-content-center" dir="rtl">
-                            <div class="text-center">
-                                <h1 class="mainTextColor">رؤيتنا:</h1>
-                                <p class="fw-bolder fs-4 " data-aos="fade-up">الريادة في تمكين الأسر المنتجة.
+                            <div class="text-center" data-aos="fade-up">
+                                <h1 class="mainTextColor">رؤيتنا :</h1>
+                                <p class="fw-bolder fs-4 " >الريادة في تمكين الأسر المنتجة.
                                 </p>
                             </div>
 
@@ -118,24 +117,23 @@
         <!--!-------------------------------------->
 
         <!-- start advantages -->
-        <div class="advantages mainBgColor position-relative overflow-hidden" style="height:calc(100vh - 100px) "
-            id="Advantages" dir="ltr">
-            <img src="./images/wave-vector.png" class="wave-vector" alt="orange-wave">
+        <div class="advantages mainBgColor position-relative overflow-hidden " id="Advantages" dir="ltr">
+            <img src="./images/wave-vector.png" class="wave-vector" alt="orange-wave"  data-aos="fade-right">
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 d-none d-lg-flex flex-column align-items-center pt-5 ">
-                        <div class="text-white" style="margin-bottom: 100px;">
+                    <div class="col-md-4 d-none d-lg-flex flex-column align-items-center pt-5 " >
+                        <div class="text-white" style="margin-bottom: 100px;" data-aos="fade-right">
                             <h1>المميزات</h1>
                             <p>ابرز مميزات تطبيق يفوز</p>
                         </div>
-                        <div>
-                            <img src="./images/phone.png" class="position-relative" alt="">
+                        <div data-aos="fade-up">
+                            <img src="./images/phone - Copy.png" class="position-relative" alt="">
                         </div>
                     </div>
                     <div class="col-md-8 d-flex flex-column h-100 text-white content" style="margin-top: 200px;"
                         dir="rtl">
-                        <div class="row mb-4 mb-md-0">
+                        <div class="row mb-4 mb-md-0" data-aos="fade-left">
                             <div class="col-lg-6">
                                 <div
                                     class="cards text-center d-flex justify-content-center flex-column align-items-center">
@@ -157,7 +155,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" data-aos="fade-right">
                             <div class="col-lg-6">
                                 <div
                                     class="cards text-center d-flex justify-content-center flex-column align-items-center">
@@ -188,61 +186,131 @@
         <!--!-------------------------------------->
 
         <!-- start downloadApp slide -->
-        <div class="downloadApp position-relative overflow-hidden"  id="app">
-            <!-- <img src="./images/orange-wave.png" class="orange-wave" alt="orange-wave"> -->
-            <div class="container">
-                <div class="row align-items-end" style="padding-top: 100px;" >
+        <div class="downloadApp position-relative overflow-hidden " id="app">
+            <img src="./images/orange-wave.png" class="orange-wave" alt="orange-wave">
+            <div class="container position-relative">
+                <div class="row align-items-end" style="padding-top: 100px;">
                     <div class="col-md-8" style="margin-bottom: 100px;">
                         <div class="right">
-                            <h1 class="mainTextColor fs-4 fw-normal">حــمـل التطبيــق</h1>
-                            <div class="img">
+                            <h1 class="mainTextColor fs-4 fw-normal" data-aos="fade-left">حــمـل التطبيــق</h1>
+                            <div class="img" data-aos="fade-left">
                                 <img src="./images/start-today.png" class="w-100" alt="">
                             </div>
-                            <div class="downDesc d-flex align-items-center gap-5">
-                                <div>
+                            <div class="downDesc d-flex align-items-center gap-5" >
+                                <div data-aos="fade-up">
                                     <p class="">اكتشف الطعام أينما ومتى تريد واحصل على طعامك بسرعة.</p>
                                 </div>
-                                <div>
+                                <div data-aos="fade-up">
                                     <a href="#" class="download-now text-decoration-none">حمله الأن</a>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="img  d-flex justify-content-center justify-content-md-start">
-                            <img src="./images/phone-app.png" class="w-75" alt="">
+                        <div class="img d-none d-md-flex justify-content-center justify-content-md-start" data-aos="fade-up">
+                            <img src="./images/phone-app.png" class="w-75" alt="" data-aos="fade-up">
                         </div>
                     </div>
                 </div>
             </div>
 
         </div>
-        <!-- End app slide -->
+        <!-- End downloadApp slide -->
 
-        <!--!-------------------------------------->
         <!--!-------------------------------------->
 
         <!-- start app slide -->
-        <div class="app bg-danger " style="height: 100vh;" id="app">
-
+        <div class="app position-relative" style="margin: 100px 0;" id="app">
+            <img src="./images/app-screen.png" class="position-absolute w-100 h-100 z-0" alt="app-screen" data-aos="fade-left">
+            <div class="container position-relative ">
+                <div class="row justify-content-center ">
+                    <div class="col-12 d-flex justify-content-center mt-5">
+                        <div class="text-center">
+                            <h1 class="m-0" data-aos="fade-down">التطبيق</h1>
+                            <p class="text-decoration-underline mainTextColor fs-4 fw-light" data-aos="fade-down">SCREENSHOTS</p>
+                        </div>
+                    </div>
+                    <div class="col-12" data-aos="fade-left">
+                        <div class="row">
+                            <div class="col-4 d-flex justify-content-center ">
+                                <img src="./images/HOME1.png" class="w-100" alt="HOME1">
+                            </div>
+                            <div class="col-4 d-flex justify-content-center ">
+                                <img src="./images/HOME2.png" class="w-100" alt="HOME1">
+                            </div>
+                            <div class="col-4 d-flex justify-content-center ">
+                                <img src="./images/HOME3.png" class="w-100" alt="HOME1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- End app slide -->
 
         <!--!-------------------------------------->
 
         <!-- start joinUs slide -->
-        <div class="joinUs bg-body-secondary " style="height: 100vh;" id="joinUs">
-
+        <div class="joinUs position-relative" style="height: calc(100vh - 100px);" id="joinUs">
+            <img src="./images/orange-wave.png" class="orange-wave" alt="orange-wave" data-aos="fade-right">
+            <div class="content w-100 h-100">
+                <div class="container w-100 position-relative h-100 d-flex justify-content-center align-items-center">
+                    <div class="downDesc text-center" data-aos="fade-down">
+                        <h3 class="fs-1 mainTextColor fw-bolder">انضم إلينا</h3>
+                        <p class="fs-4">
+                            نسعد بانضمام مقدمي الخدمة لنا (شركاء، أسر منتجة) إنضم لنا الآن
+                        </p>
+                        <button class="btn mainBgColor m-0 p-0  rounded-5">
+                            <a href="" class="join-now text-decoration-none ">انضم الأن</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- End joinUs slide -->
 
         <!--!-------------------------------------->
-
     </section>
     <!-- End Main Page -->
 
+    <!-- start Footer section -->
+    <footer class=" bg-black py-2" dir="ltr">
+        <div class="row justify-content-center justify-content-md-between align-items-center">
+            <div class="col-md-4 d-flex justify-content-center justify-content-md-start ">
+                <div class="img" style="width: 100px;">
+                    <img src="./images/logo-footer.svg" class="w-100" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 text-center my-3 my-md-0">
+                <p class="text-white m-0">Copywright 2024 gamifier.com</p>
+            </div>
+            <div class="col-4 d-flex justify-content-end align-items-center">
+                <ul class="social d-flex align-items-center m-0">
+                    <li>
+                        <a href="#">
+                            <img src="https://yfoz.net/web/assets/icons/facebook.svg" class="w-50" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://yfoz.net/web/assets/icons/twitter.svg" class="w-50" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://yfoz.net/web/assets/icons/instagram.svg" class="w-50" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer section -->
+    <script src="./node_module/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./node_module/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>

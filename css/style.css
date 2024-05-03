@@ -177,7 +177,7 @@ body {
     letter-spacing: 0em;
     max-width: 335px;
 }
-.downloadApp .right .downDesc a {
+.downDesc a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,7 +191,7 @@ body {
     border: 1px solid #f88818;
     box-shadow: none;
 }
-.downloadApp .right .downDesc a:hover {
+.downDesc a:hover {
     background-color: white;
     color: #f88818;
 }
@@ -255,7 +255,6 @@ body {
 @media only screen and (max-width: 770px) {
     .wave-vector {
         width: 100%;
-
     }
 
     .orange-wave {
